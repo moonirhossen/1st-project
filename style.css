@@ -1,0 +1,141 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+p{
+  font-size: 17px;
+  padding: 0px 5px;
+}
+img{
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+.name{
+  font-size: 45px;
+  color: brown;
+}
+.expert{
+  font-size: 30px;
+  margin-top: -40px;
+}
+.hire{
+  margin-top: -10px;
+}
+.button{
+  color: white;
+  background-color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.button:hover{
+  color: white;
+  background-color: rgb(219, 2, 2);
+
+}
+.button-service{
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.conteiner1{
+ display: flex;
+ background-color: antiquewhite;
+ padding-top: 100px;
+ padding-left: 50px;
+}
+.conteiner1 div{
+  padding: 20px 20px 0;
+  width: 50%; height: 500px;
+  justify-content: space-between;
+}
+.conteiner2{
+  display: flex;
+  background-color: aliceblue;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.conteiner2 div{
+  padding: 20px 20px 0;
+  width: 50%; height: 500px;
+  justify-content:left;
+}
+.services{
+  display: flex;
+}
+
+#my-services{
+  text-align: center;
+  font-size: 35px;
+}
+.services div {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+  border-radius: 20px;
+  display: flex;
+ flex-wrap: wrap;
+ flex-basis: auto;
+ width: 33%; height: 230px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  justify-content: center;
+  background-image: url(portfolio/bg-image.png);
+  background-position: bottom left;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.services :hover{
+  
+  box-shadow: 2px 2px 5px rgba(196, 6, 6, 0);
+  border-radius: 20px;
+}
+.services1{
+background-color: #E74C3C;
+}
+.services2{
+  background-color: #8E44AD;
+  }
+  .services3{
+    background-color: #3498DB;
+    }
+    .services4{
+      background-color: #1ABC9C;
+      }
+      .services5{
+        background-color: #F1C40F;
+        }
+        .services6{
+          background-color: #566573;
+          }
+ #portfolio-heading{
+            text-align: center;
+            font-size: 35px;
+            color: #E74C3C;
+          }
+ .portfolio{
+  display:flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  padding-bottom: 50px;
+  justify-content: center;
+  background-color: #eff7ff;
+  }
+
+  .image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .copyright{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    height: 50px;
+   }
